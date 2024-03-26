@@ -4,9 +4,9 @@ public class LoggerTest {
         Logger logger = Logger.getInstance();
 
         // Log messages
-        logger.logMessage("Log entry 1");
-        logger.logMessage("Log entry 2");
-        logger.logMessage("Log entry 3");
+        logger.logMessage("Ready");
+        logger.logMessage("Steady");
+        logger.logMessage("Poo");
 
         // Get and print the log content
         String logContent = logger.getLog();
