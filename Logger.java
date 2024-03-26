@@ -2,12 +2,12 @@ public class Logger {
     private static Logger instance;
     private String log;
 
-    // Private constructor to prevent instantiation from other classes
+    // Private constrocter
     private Logger() {
         this.log = "";
     }
 
-    // Public method to get the singleton instance of Logger
+    // Public method for get intence from singletonjava
     public static Logger getInstance() {
         if (instance == null) {
             instance = new Logger();

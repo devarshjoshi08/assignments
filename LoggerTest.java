@@ -1,14 +1,14 @@
 public class LoggerTest {
     public static void main(String[] args) {
-        // Get the singleton instance of Logger
+        // singleton intence for logger
         Logger logger = Logger.getInstance();
 
-        // Log messages
+        // Log mesage nakhya
         logger.logMessage("Ready");
         logger.logMessage("Steady");
         logger.logMessage("Poo");
 
-        // Get and print the log content
+        // get karine log content print karva
         String logContent = logger.getLog();
         System.out.println("Log Content:");
         System.out.println(logContent);
